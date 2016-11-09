@@ -1,0 +1,403 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TeachC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TeachC.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 TeachC"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TeachC 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2016",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TEACHC_DIALOG DIALOGEX 0, 0, 301, 103
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW
+CAPTION "C语言教学工具"
+FONT 22, "宋体"
+BEGIN
+    CONTROL         129,IDC_STATIC_MAIN_BIT8,"Static",SS_BITMAP | SS_NOTIFY,
+                    49,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT7,"Static",SS_BITMAP | SS_NOTIFY,
+                    61,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT6,"Static",SS_BITMAP | SS_NOTIFY,
+                    73,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT5,"Static",SS_BITMAP | SS_NOTIFY,
+                    85,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT4,"Static",SS_BITMAP | SS_NOTIFY,
+                    97,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT3,"Static",SS_BITMAP | SS_NOTIFY,
+                    109,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT2,"Static",SS_BITMAP | SS_NOTIFY,
+                    121,8,11,14
+    CONTROL         129,IDC_STATIC_MAIN_BIT1,"Static",SS_BITMAP | SS_NOTIFY,
+                    133,8,11,14
+    GROUPBOX        "",IDC_STATIC,2,0,148,92
+    EDITTEXT        IDC_EDIT_MAIN_TRUE1,133,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE2,121,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE3,109,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE4,97,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE5,85,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE6,73,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE7,61,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_TRUE8,49,25,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG1,133,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG2,121,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG3,109,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG4,97,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG5,85,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG6,73,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG7,61,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_NEG8,49,39,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM1,133,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM2,121,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM3,109,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM4,97,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM5,85,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM6,73,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM7,61,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_COM8,49,53,12,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "原码：",IDC_STATIC_TRUE,13,27,24,8,SS_NOTIFY
+    CONTROL         "符号位",IDC_CHECK_FLAG,"Button",BS_AUTOCHECKBOX | 
+                    BS_NOTIFY | WS_TABSTOP,6,10,30,10
+    LTEXT           "反码：",IDC_STATIC_NEG,13,40,24,8,SS_NOTIFY
+    LTEXT           "补码：",IDC_STATIC_COM,13,54,24,8,SS_NOTIFY
+    EDITTEXT        IDC_EDIT_MAIN_HEX2,97,66,48,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_HEX1,49,66,48,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_DEC,49,79,96,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "16进制：",IDC_STATIC,4,68,32,8
+    LTEXT           "10进制：",IDC_STATIC,4,82,32,8
+    EDITTEXT        IDC_EDIT_MAIN_HEX_FLAG,42,66,7,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_MAIN_DEC_FLAG,42,79,7,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         129,IDC_STATIC_A_BIT8,"Static",SS_BITMAP | SS_NOTIFY,171,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT7,"Static",SS_BITMAP | SS_NOTIFY,183,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT6,"Static",SS_BITMAP | SS_NOTIFY,195,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT5,"Static",SS_BITMAP | SS_NOTIFY,207,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT4,"Static",SS_BITMAP | SS_NOTIFY,219,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT3,"Static",SS_BITMAP | SS_NOTIFY,231,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT2,"Static",SS_BITMAP | SS_NOTIFY,243,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_A_BIT1,"Static",SS_BITMAP | SS_NOTIFY,255,
+                    8,11,14
+    CONTROL         129,IDC_STATIC_B_BIT8,"Static",SS_BITMAP | SS_NOTIFY,171,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT7,"Static",SS_BITMAP | SS_NOTIFY,183,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT6,"Static",SS_BITMAP | SS_NOTIFY,195,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT5,"Static",SS_BITMAP | SS_NOTIFY,207,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT4,"Static",SS_BITMAP | SS_NOTIFY,219,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT3,"Static",SS_BITMAP | SS_NOTIFY,231,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT2,"Static",SS_BITMAP | SS_NOTIFY,243,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_B_BIT1,"Static",SS_BITMAP | SS_NOTIFY,255,
+                    25,11,14
+    CONTROL         129,IDC_STATIC_C_BIT8,"Static",SS_BITMAP | SS_NOTIFY,172,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT7,"Static",SS_BITMAP | SS_NOTIFY,184,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT6,"Static",SS_BITMAP | SS_NOTIFY,196,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT5,"Static",SS_BITMAP | SS_NOTIFY,208,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT4,"Static",SS_BITMAP | SS_NOTIFY,220,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT3,"Static",SS_BITMAP | SS_NOTIFY,232,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT2,"Static",SS_BITMAP | SS_NOTIFY,244,
+                    43,11,14
+    CONTROL         129,IDC_STATIC_C_BIT1,"Static",SS_BITMAP | SS_NOTIFY,256,
+                    43,11,14
+    CONTROL         "A",IDC_RADIO_A,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    157,10,12,10
+    CONTROL         "B",IDC_RADIO_B,"Button",BS_AUTORADIOBUTTON,157,27,12,10
+    CONTROL         "C",IDC_RADIO_C,"Button",BS_AUTORADIOBUTTON,157,45,13,10
+    GROUPBOX        "",IDC_STATIC,151,0,146,62
+    LTEXT           "FF",IDC_STATIC_HEX_A,272,11,17,8
+    LTEXT           "FF",IDC_STATIC_HEX_B,272,27,16,8
+    LTEXT           "FF",IDC_STATIC_HEX_C,272,46,16,8
+    EDITTEXT        IDC_EDIT_CAL_LINE,153,65,50,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "A",IDC_BUTTON_A,153,81,12,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "B",IDC_BUTTON_B,165,81,12,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Clr",IDC_BUTTON_CLEAR,190,81,13,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "=",IDC_BUTTON_CAL,177,81,13,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "+",IDC_BUTTON_PLUS,204,65,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "-",IDC_BUTTON_MINUS,214,65,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "*",IDC_BUTTON_MUL,224,65,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "/",IDC_BUTTON_DIV,234,65,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "&&&&",IDC_BUTTON_WITH,204,74,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "||",IDC_BUTTON_PERHAPS,214,74,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "==",IDC_BUTTON_EQUAL,224,74,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "!=",IDC_BUTTON_NOEQUAL,234,74,10,8,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_RESUALT,257,65,36,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "&&",IDC_BUTTON_AND,204,83,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "|",IDC_BUTTON_OR,214,83,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "^",IDC_BUTTON_XOR,224,83,10,8,BS_TOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "!",IDC_BUTTON_OPPSITE,234,83,10,8,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,151,59,146,33
+    PUSHBUTTON      "<<",IDC_BUTTON_LEFT,244,74,10,8,0,WS_EX_STATICEDGE
+    PUSHBUTTON      ">>",IDC_BUTTON_RIGHT,244,83,10,8,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_NUM,257,80,36,85,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "~",IDC_BUTTON_NO,244,65,10,8,BS_CENTER | BS_TOP,
+                    WS_EX_STATICEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TeachC Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TeachC\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2016\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TeachC.EXE\0"
+            VALUE "ProductName", "TeachC 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TEACHC_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 299
+        BOTTOMMARGIN, 96
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_LIGHT        BITMAP  DISCARDABLE     "res\\light.bmp"
+IDB_BITMAP_UNLIGHT      BITMAP  DISCARDABLE     "res\\unlight.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TEACHC_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_NUM, 0x403, 2, 0
+0x0038, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 TeachC(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\TeachC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
